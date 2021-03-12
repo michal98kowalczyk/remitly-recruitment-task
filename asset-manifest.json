@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/remitly-recruitment-task/static/css/main.bbf6eb96.chunk.css",
+    "main.js": "/remitly-recruitment-task/static/js/main.324ea16a.chunk.js",
+    "main.js.map": "/remitly-recruitment-task/static/js/main.324ea16a.chunk.js.map",
+    "runtime-main.js": "/remitly-recruitment-task/static/js/runtime-main.68332bd5.js",
+    "runtime-main.js.map": "/remitly-recruitment-task/static/js/runtime-main.68332bd5.js.map",
+    "static/js/2.14c69828.chunk.js": "/remitly-recruitment-task/static/js/2.14c69828.chunk.js",
+    "static/js/2.14c69828.chunk.js.map": "/remitly-recruitment-task/static/js/2.14c69828.chunk.js.map",
+    "static/js/3.cb1f94be.chunk.js": "/remitly-recruitment-task/static/js/3.cb1f94be.chunk.js",
+    "static/js/3.cb1f94be.chunk.js.map": "/remitly-recruitment-task/static/js/3.cb1f94be.chunk.js.map",
+    "index.html": "/remitly-recruitment-task/index.html",
+    "static/css/main.bbf6eb96.chunk.css.map": "/remitly-recruitment-task/static/css/main.bbf6eb96.chunk.css.map",
+    "static/js/2.14c69828.chunk.js.LICENSE.txt": "/remitly-recruitment-task/static/js/2.14c69828.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68332bd5.js",
+    "static/js/2.14c69828.chunk.js",
+    "static/css/main.bbf6eb96.chunk.css",
+    "static/js/main.324ea16a.chunk.js"
+  ]
+}
