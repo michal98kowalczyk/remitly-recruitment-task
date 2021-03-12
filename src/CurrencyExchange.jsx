@@ -25,7 +25,7 @@ const CurrencyExchange = ({rate}) =>
         let value = e.target.value;
 
         if(!regex.test(value)){
-            alert("Incorrect input! \n It should be numeric input!");
+            alert("Wrong input! \n It should be numeric input!");
             return;
         }
 

@@ -5,19 +5,31 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  min-height: 100vh;
+}
+
 .App {
   text-align: center;
   width: 50%;
   margin: 0 auto;
 }
 
+.App h1 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
 form div {
-  position: relative;
+  width: 40%;
+  margin: 0 auto;
+  text-align: left;
 }
 
 form div p {
-  top: 0;
-  left: 0;
+  font-size: 12px;
 }
 
 label {
@@ -28,11 +40,10 @@ label {
   border: 1px solid rgb(49, 46, 46);
   border-radius: 3%;
 
-  margin: 20px auto;
-  padding: 5px 10px;
+  margin: 0px auto 10px auto;
+  padding: 5px 16px;
 
   min-width: 260px;
-  width: 40%;
 }
 
 label img {
@@ -45,6 +56,9 @@ label input {
 label span {
   flex-basis: 0;
   margin-left: 5%;
+
+  font-size: 14px;
+  line-height: 14px;
 }
 
 input {
@@ -53,4 +67,18 @@ input {
 }
 input:focus {
   outline: none !important;
+}
+
+section > p > span {
+  font-weight: bold;
+}
+
+footer {
+  line-height: 30px;
+
+  background-color: #ddd;
+  position: fixed;
+  bottom: 0;
+  left: 5%;
+  right: 5%;
 }
