@@ -20,14 +20,11 @@ const App = () =>{
    
   },[]);
 
+
   const getData=()=>{
    return  fetch(url)
       .then(response => response.json())
-      .then(result => {
-        console.log(result.rates[0].mid);
-        setRate(result);
-        return result;
-      })
+      .then(result =>  setRate(result))
         .catch(e => console.log(e));
 
 
@@ -43,6 +40,7 @@ const App = () =>{
       rate={rate}
     />
 
+    <footer><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></footer>
     </div>
   );
 }
