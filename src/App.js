@@ -4,7 +4,7 @@ import './App.css';
 import CurrencyExchange from "./CurrencyExchange";
 
 
-// https://warm-harbor-43713.herokuapp.com/
+
 const url = " https://warm-harbor-43713.herokuapp.com/http://api.nbp.pl/api/exchangerates/rates/a/gbp/?format=json"
 
 
@@ -15,13 +15,15 @@ const App = () =>{
 
 
   useEffect( () => {
-
-   getData()
+    getData();
+    setInterval(getData,10000);
    
   },[]);
 
 
   const getData=()=>{
+    
+
    return  fetch(url)
       .then(response => response.json())
       .then(result =>  setRate(result))
